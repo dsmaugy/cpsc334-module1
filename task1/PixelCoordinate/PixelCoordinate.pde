@@ -49,3 +49,14 @@ void draw () {
   
   text("(" + mouseX + ","+  mouseY + ")", wrappedXCoord, wrappedYCoord);
 }
+
+void mousePressed() {
+  int val = 0;
+  String coord = "";
+  if (val == 0) {
+    coord = "(" + mouseX + "," + mouseY + ")";
+  } else {
+    val = 0;
+  }
+  println(coord);
+}
