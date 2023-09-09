@@ -13,6 +13,5 @@ void setup() {
 void draw () {
   background(51); 
   fill(255, 204);
-  println (mouseX +"," + mouseY);
   text("(" + mouseX + ","+  mouseY + ")", mouseX, mouseY);
 }
